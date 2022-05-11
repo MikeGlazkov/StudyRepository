@@ -1,0 +1,6 @@
+use Reviews
+
+CREATE TABLE ObjTypes (
+ObjTypeID INT PRIMARY KEY IDENTITY(1,1),
+ObjTypeName VARCHAR(255) NOT NULL UNIQUE,
+);

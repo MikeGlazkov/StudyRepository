@@ -1,0 +1,11 @@
+use Reviews
+
+CREATE TABLE Places (
+PlaceID INT PRIMARY KEY IDENTITY(1,1),
+PlaceName VARCHAR(255) NOT NULL,
+ObjTypeID INT NOT NULL,
+FOREIGN KEY (ObjTypeID) REFERENCES ObjTypes (ObjTypeID),
+StreetID INT NOT NULL,
+FOREIGN KEY (StreetID) REFERENCES Streets (StreetID),
+UNIQUE (PlaceName, ObjTypeID, StreetID)
+);

@@ -1,0 +1,9 @@
+use Reviews
+
+CREATE TABLE Users (
+UserID INT PRIMARY KEY IDENTITY(1,1),
+UserName VARCHAR(255) NOT NULL UNIQUE,
+UserPass VARCHAR(255) NOT NULL,
+UserMail VARCHAR(255) NOT NULL,
+CHECK ((LEN(UserPass ) > 7) AND UserMail != '')
+);
