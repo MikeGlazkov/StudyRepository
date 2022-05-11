@@ -1,0 +1,6 @@
+use Reviews
+
+CREATE TABLE Towns (
+TownID INT PRIMARY KEY IDENTITY(1,1),
+TownName VARCHAR(255) NOT NULL,
+);
