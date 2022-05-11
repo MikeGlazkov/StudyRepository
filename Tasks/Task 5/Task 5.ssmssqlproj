@@ -79,6 +79,12 @@
           <AssociatedConnUserName />
           <FullPath>InitTables.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLFunction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9NGEV8B\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-9NGEV8B\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLFunction.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLProcedure .sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9NGEV8B\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9NGEV8B\SQLEXPRESS</AssociatedConnSrvName>
