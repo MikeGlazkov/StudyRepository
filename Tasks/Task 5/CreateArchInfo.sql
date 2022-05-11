@@ -1,0 +1,13 @@
+use Reviews
+
+CREATE TABLE ArchInfo (
+ID INT,
+Comment VARCHAR(255),
+Rate INT NOT NULL,
+PlaceID INT NOT NULL,
+FOREIGN KEY (PlaceID) REFERENCES Places (PlaceID),
+UserID INT NOT NULL,
+FOREIGN KEY (UserID) REFERENCES Users (UserID),
+DTime DATETIME NOT NULL 
+UNIQUE (ID,Comment ,Rate ,UserID , DTime)
+);
