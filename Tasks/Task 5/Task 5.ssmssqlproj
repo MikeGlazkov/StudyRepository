@@ -115,6 +115,18 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery4.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLTriggerInfoChange.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9NGEV8B\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-9NGEV8B\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLTriggerInfoChange.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLTriggerInfoDelete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9NGEV8B\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-9NGEV8B\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLTriggerInfoDelete.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLVIEV2.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-9NGEV8B\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-9NGEV8B\SQLEXPRESS</AssociatedConnSrvName>
